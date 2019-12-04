@@ -1,0 +1,10 @@
+Links:
+	CNN with TensorFlow in Android: https://towardsdatascience.com/android-with-tensorflow-part-1-6897ba617b1e
+
+	Convolutional Neural Network Based Offline Signature Verification Application: https://www.researchgate.net/publication/329391118_Convolutional_Neural_Network_Based_Offline_Signature_Verification_Application
+
+	Learning Features for Offline Handwritten Signature Verification using Deep Convolutional Neural Networks: https://www.researchgate.net/publication/316926063_Learning_Features_for_Offline_Handwritten_Signature_Verification_using_Deep_Convolutional_Neural_Networks
+
+	Classification of Signature and Text images using CNN and Deploying the model on Google Cloud ML Engine: https://towardsdatascience.com/classification-of-signature-and-text-images-using-cnn-and-deploying-the-model-on-google-cloud-ml-30bf6f4e3207
+
+	FACS PAUL EKMAN: https://pt.wikipedia.org/wiki/Facial_Action_Coding_System

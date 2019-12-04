@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assinatura</string>
+    <string name="sign_here_title">Login</string>
+    <string name="signup_here_title">Sign Up</string>
+    <string name="trainning_here_title">Trainning Form</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Save</string>
+    <string name="get_signature_text">Login</string>
+    <string name="get_sign_up_text">Sign Up</string>
+    <string name="get_trainning_text">Start Trainning</string>
+</resources>

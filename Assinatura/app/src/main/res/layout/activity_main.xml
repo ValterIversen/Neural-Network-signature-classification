@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/CanvasBackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_here_title"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/getSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorOrange"
+        android:padding="@dimen/button_padding"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="@android:color/white"
+        android:text="@string/get_signature_text" />
+
+    <EditText
+        android:id="@+id/txtSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/getSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorOrange"
+        android:padding="@dimen/button_padding"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="@android:color/white"
+        android:text="@string/get_sign_up_text" />
+
+    <EditText
+        android:id="@+id/txtTrainning"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/getTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorOrange"
+        android:padding="@dimen/button_padding"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="@android:color/white"
+        android:text="@string/get_trainning_text" />
+</LinearLayout>

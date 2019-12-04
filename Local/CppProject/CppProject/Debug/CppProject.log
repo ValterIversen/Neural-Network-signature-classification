@@ -1,0 +1,22 @@
+﻿  MinMaxFeatureScaling.cpp
+  NeuralNetwork.cpp
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(18,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(29,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(49,19): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(61,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(167,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(180,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(257,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(263,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(269,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(275,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(281,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(287,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(293,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(298,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\MinMaxFeatureScaling.cpp(311,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\NeuralNetwork.cpp(432,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\NeuralNetwork.cpp(436,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\NeuralNetwork.cpp(540,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\NeuralNetwork.cpp(560,21): warning C4018: '<': incompatibilidade de signed/unsigned
+  CppProject.vcxproj -> C:\Users\VALTERIVERSENFERNAND\Documents\GitHub\Neural-Network-signature-classification\Local\CppProject\Debug\CppProject.exe

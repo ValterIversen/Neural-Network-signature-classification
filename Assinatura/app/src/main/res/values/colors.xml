@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#BF4900</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="ColorOrange">#FFBF4900</color>
+    <color name="BorderLineColor">#B8B9B1</color>
+    <color name="CanvasBackground">#FFFFFF</color>
+</resources>
