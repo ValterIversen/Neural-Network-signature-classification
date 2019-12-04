@@ -1,4 +1,3 @@
-# Neural-Network-signature-classification
 # Android/Java application with C++ neural network for handwritten signature classification.
 
 ## Hi, this was the final project of my graduation.
@@ -12,25 +11,25 @@ There actualy two project: one is a C++ project made in Visual Studio and anothe
 
 The C++ project was made for runing in a computer to training the neural network for performance reasons.
 To run it. You have to get your data in a txt in the next format:
-![Format](/Prints-Readme/DataSetFormat.png?raw=true "Format")
+![Format](/Prints-Readme/DataSetFormat.PNG?raw=true "Format")
 
 The files are stored in the "\Local\CppProject\CppProject\DataSet" directory.
 Where "in: 0.xxx 0.xxxx" is the  inputs and the "out: 0.0" are the desired outputs, the dataset does not need normalization because we normalize it later.
 
 The interface of the C++ is simple. In the menu, you can choose the options of training and testing.
-![MenuP](/Prints-Readme/Menu.png?raw=true "MenuP")
+![MenuP](/Prints-Readme/Menu.PNG?raw=true "MenuP")
 
 Chosing the training, you will have the choice to normalize the dataset and you can define the topology of your neural network.
-![TopologyDefinition](/Prints-Readme/TopologyDefinition.png?raw=true "TopologyDefinition")
+![TopologyDefinition](/Prints-Readme/TopologyDefinition.PNG?raw=true "TopologyDefinition")
 
 The condition to stop the training is set directly in the code. The one i was using was: mean squared error minor than 0.0005 and 100% accuracy in the desired outputs.
 *//myNet.getRecentAverageError() >  0.0005 || countAccuracy < countDataSet*
 After the condition is satisfied, the test is started.
-![Testing](/Prints-Readme/Test.png?raw=true "Testing")
+![Testing](/Prints-Readme/Test.PNG?raw=true "Testing")
 
 After the training. You will have in the same directory the files minMaxFile.txt that store the minimun and maximun values of the inputs for the normalization in the android device and the most important, bestWeight.txt, that store the weights who have the best results from your training with the topology on top.
 
-![BestWeights](/Prints-Readme/bestWeights.png?raw=true "BestWeights")
+![BestWeights](/Prints-Readme/bestWeights.PNG?raw=true "BestWeights")
 
 The dataset is put in the device manually.
 The android will read the file in a separete directory created by the app "\UserSignature".
