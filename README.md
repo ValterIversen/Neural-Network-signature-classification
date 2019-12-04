@@ -3,11 +3,11 @@
 ## Hi, this was the final project of my graduation.
 ## I hope you find something to help you.
 
-In the Documentation paste, you will find my article (Artigo.docx, written in Portuguese/Brazil).
+For all details, in the Documentation paste, you will find my article (Artigo.docx, written in Portuguese/Brazil).
 
 The project have the objective of training a neural network to identify if the user is registered to realize login.
 
-There actualy two project: one is a C++ project made in Visual Studio and another is a android/java project made in Android Studio, where the neural network is a cpp (C++) class who run in a NDK and is being called via JNI.
+Theres actualy two project: one is a C++ project made in Visual Studio and another is a android/java project made in Android Studio, where the neural network is a cpp (C++) class who run in a NDK and is being called via JNI.
 
 The C++ project was made for runing in a computer to training the neural network for performance reasons.
 To run it. You have to get your data in a txt in the next format:
@@ -50,6 +50,7 @@ The forms to collect signatures are basically the same:
 The inputs are: total time of execution, finger lift amount, average signature execution time during finger pression periods, trajectory sampling (sum of the initial and final X Y coordinates), horizontal and vertical maximums and signature density.
 
 *Signature density feature collect example*
+
 ![Signature density](/Prints-Readme/density.png?raw=true "Signature density")
 
 Activation function: sigmoid.

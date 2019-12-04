@@ -331,6 +331,6 @@ MinMaxFeatureScaling::MinMaxFeatureScaling(const string trainningFileNameP, cons
 	normalizeTestData();
 
 
-	cout << "DataSet normalizado.";
+	cout << "DataSet normalized.";
 }
 
