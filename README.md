@@ -1,15 +1,40 @@
-# Android/Java application with C++ neural network for handwritten signature classification.
+# Neural Network for handwritten signature classification
+## Android application with C++ neural network for handwritten signature classification.
 
-## Hi, this was the final project of my graduation.
-## I hope you find something to help you.
+**Hi, this was the final project of my graduation.**
+**I hope you find something to help you.**
+
+**About the project **
+
+The project have the objective of training a neural network to identify if the user is registered to allow login or another necessities.
+The android application use a neural network to verify if a handwritten signature is registered.
+Theres actualy two project: one is a C++ project made in Visual Studio and another is a android/java project made in Android Studio, where the neural network is a cpp (C++) class who run in a NDK and is being called via JNI in the android application.
+The C++ project was made for runing in a computer to training the neural network for performance and distribution reasons.
 
 For all details, in the Documentation paste, you will find my article (Artigo.docx, written in Portuguese/Brazil).
 
-The project have the objective of training a neural network to identify if the user is registered to realize login.
+The app is responsible for collection the data and do the actual classification of the signature.
 
-Theres actualy two project: one is a C++ project made in Visual Studio and another is a android/java project made in Android Studio, where the neural network is a cpp (C++) class who run in a NDK and is being called via JNI.
+*Application running and classifying an user*
 
-The C++ project was made for runing in a computer to training the neural network for performance reasons.
+![ApplicationRunning](/Prints-Readme/ApplicationRunning.gif?raw=true "Application Running")
+
+The first button is to do the feedforward and verify your signature/login. The C++ neural network run in a NDK and is being called via JNI.
+The second is to collect a data of a new user and send the text document and the signatures pictures to an email.
+The third is to data collection of non-users for a non-users dataset.
+
+The desktop project will train and test the neural network with the dataset you have collected; after training, the best weights and the normalization values will be saved for the distribution.
+
+*Desktop neural network for training and testing*
+
+![TrainingGif](/Prints-Readme/TrainingGif.gif?raw=true "Training Gif")
+
+
+![TestGif](/Prints-Readme/TestGif.gif?raw=true "Test Gif")
+
+
+**More details**
+
 To run it. You have to get your data in a txt in the next format:
 ![Format](/Prints-Readme/DataSetFormat.PNG?raw=true "Format")
 
@@ -23,7 +48,9 @@ Chosing the training, you will have the choice to normalize the dataset and you 
 ![TopologyDefinition](/Prints-Readme/TopologyDefinition.PNG?raw=true "TopologyDefinition")
 
 The condition to stop the training is set directly in the code. The one i was using was: mean squared error minor than 0.0005 and 100% accuracy in the desired outputs.
+
 *//myNet.getRecentAverageError() >  0.0005 || countAccuracy < countDataSet*
+
 After the condition is satisfied, the test is started.
 ![Testing](/Prints-Readme/Test.PNG?raw=true "Testing")
 
@@ -34,13 +61,6 @@ After the training. You will have in the same directory the files minMaxFile.txt
 The dataset is put in the device manually.
 The android will read the file in a separete directory created by the app "\UserSignature".
 Store the bestWeight.txt and minMaxFile.txt in this directory to use the app.
-
-The app is responsible for collection the data and do the actual classification of the signature.
-![MenuAndroid](/Prints-Readme/Menu-Android.png?raw=true "MenuAndroid")
-
-The first button is to do the feedforward and verify your signature/login. The C++ neural network run in a NDK and is being called via JNI.
-The second is to collect a data of a new user and send the text document and the signatures pictures to an email.
-The third is to data collection of non-users for a non-users dataset.
 
 The forms to collect signatures are basically the same:
 ![Signature](/Prints-Readme/signature.png?raw=true "Signature")
