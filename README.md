@@ -6,14 +6,14 @@
 
 **About the project **
 
-The project have the objective of training a neural network to identify if the user is registered to allow login or another necessities.
+The project have the objective of training a neural network to identify if the user is registered to allow login.
 The android application use a neural network to verify if a handwritten signature is registered.
 Theres actualy two project: one is a C++ project made in Visual Studio and another is a android/java project made in Android Studio, where the neural network is a cpp (C++) class who run in a NDK and is being called via JNI in the android application.
 The C++ project was made for runing in a computer to training the neural network for performance and distribution reasons.
 
-For all details, in the Documentation paste, you will find my article (Artigo.docx, written in Portuguese/Brazil).
+For all details, in the Documentation folder, you will find my article (Artigo.docx, written in Portuguese/Brazil).
 
-The app is responsible for collection the data and do the actual classification of the signature.
+The app is responsible to collect the data and do the actual classification of the signature.
 
 *Application running and classifying an user*
 
